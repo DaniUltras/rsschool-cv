@@ -1,3 +1,5 @@
+<img src="./img/myPhoto.jpg" width="250px">
+
 ## Skills
 + HTML
 + CSS
