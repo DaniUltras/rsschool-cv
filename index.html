@@ -8,7 +8,230 @@
     <title>My CV</title>
 </head>
 <body>
-    <h1>My CV in RS School</h1>
-    <img src="./img/myPhoto.jpg" alt="MyPhoto">
+    <header class="header">
+        <div class="first-header">
+            <div class="container header-container">
+                <div class="logo-name">
+                    <h2 class="logo-name-text">
+                        Daniil Sinkevich
+                    </h2>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#contacts" class="nav-link">
+                                Contacts
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#summary" class="nav-link">
+                                Summary
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#skills" class="nav-link">
+                                Skills
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#code" class="nav-link">
+                                Code
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#projects" class="nav-link">
+                                Projects
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#education" class="nav-link">
+                                Education
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#english" class="nav-link">
+                                English
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="second-header">
+            <div class="container">
+                <div class="offer">
+                    <h1>Student of Rolling Scopes School</h1>
+                    <p class="paragraph-second-header">Future JavaScript Developer</p>
+                </div>
+                <img src="/assets/img/myPhoto.png" alt="My Photo" class="my-photo">
+                <div class="contact-container">
+                    <div class="contacts" id="contacts">
+                        <div class="my-phone">
+                            <h2 class="text-phone">
+                                Phone
+                            </h2>
+                            <p class="paragraph-second-header">
+                                +375 29 113-96-06
+                            </p>
+                        </div>
+                        <div class="my-email">
+                            <h2 class="text-email">
+                                Email
+                            </h2>
+                            <p class="paragraph-second-header">
+                                daniil_sinkevich99@mail.ru
+                            </p>
+                        </div>
+                        <div class="my-discord">
+                            <h2 class="text-discord">
+                                Discord
+                            </h2>
+                            <p class="paragraph-second-header">
+                                Daniil(@DaniUltras)
+                            </p>
+                        </div>
+                        <div class="my-github">
+                            <h2 class="text-phone">
+                                GitHub
+                            </h2>
+                            <p class="paragraph-second-footer">
+                                <a href="https://github.com/DaniUltras" target="_blank">DaniUltras</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="gray-container">
+            <div class="container">
+                <section class="summary" id="summary">
+                    <div class="text-about-me">
+                        <h2>Hi, I&rsquo;m Daniil. Nice to meet you.</h2>
+                    <p>It&nbsp;is&nbsp;important for me&nbsp;to&nbsp;get the new opportunities, which the&nbsp;IT sphere can give me&nbsp;&mdash; new profession, career growth, unleashing my&nbsp;potential and my&nbsp;talents, join with like-minded people. My&nbsp;strenghts are analytical mind, decision-making, perseverance, ability to&nbsp;multi-task, strong focus on&nbsp;tasks, focus on&nbsp;results, emotional intelligence, strong empathy, teamwork and negotiation skills, responsibility. I&nbsp;accept problems as&nbsp;obstacles to&nbsp;be&nbsp;overcome. I&nbsp;am very focused on&nbsp;learning. Self-development and knowledge are my&nbsp;life goals and priorities, so&nbsp;I want to&nbsp;get as&nbsp;much as&nbsp;possible knowledge and skills from this course and apply them successfully in&nbsp;my&nbsp;professional life.</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="my-skills">
+            <div class="container">
+                <section class="skills" id="skills">
+                    <div class="skills-container">
+                        <h2 class="headlines">
+                            Skills
+                        </h2>
+                    </div>
+                    <ul class="skills-list">
+                        <li class="skills-item">
+                            <p>
+                                HTML
+                            </p>
+                        </li>
+                        <li class="skills-item">
+                            <p>
+                                CSS
+                            </p>
+                        </li>
+                        <li class="skills-item">
+                            <p>
+                                JS(Basic)
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+        <div class="gray-container">
+            <div class="container">
+                <section class="code" id="code">
+                    <h2 class="headlines gray-headlines">
+                        Code
+                    </h2>
+                    <div class="my-code">
+                        <pre class="pre">
+                            <code>
+                                for (let i = 1; i &lt;=100; i++) {
+                                    var word = '';
+                                    if(i % 3 === 0) {
+                                        word = 'Fizz';
+                                    } 
+                                    if(i % 5 === 0) {
+                                        word = word + 'Buzz';
+                                    }
+                                    if(word == '') {
+                                        console.log(i);
+                                    } else {
+                                        console.log(word);
+                                    }
+                                };
+                            </code>
+                        </pre>
+                    </div>
+                </section>
+            </div>     
+        </div>
+        <div class="my-projects">
+            <div class="container">
+                <section class="projects" id="projects">
+                    <div class="projects-container">
+                        <h2 class="headlines">
+                            Projects
+                        </h2>
+                    </div>
+                    <div class="link-github">
+                        <p class="paragraph-main-text">
+                            <a href="https://daniultras.github.io/rsschool-cv/cv" target="_blank">GitHub</a>
+                        </p>
+                    </div>
+                </section>  
+            </div>   
+        </div>
+        <div class="my-education">
+            <div class="gray-container">
+                <div class="container">
+                    <section class="education" id="education">
+                        <div class="education-container">
+                            <h2 class="headlines gray-headlines">
+                                Education
+                            </h2>
+                        </div>
+                        <p class="paragraph-main-text">
+                            <strong>College:</strong> Belarussian National Medical College
+                        </p>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div class="my-english">
+            <div class="container">
+                <section class="english" id="english">
+                    <div class="projects-container">
+                        <h2 class="headlines">
+                            English
+                        </h2>
+                    </div>
+                    <div class="link-github">
+                        <p class="paragraph-main-text">
+                            <strong>INTERMEDIATE</strong> (Studying in Lingualeo.com)
+                        </p>
+                    </div>
+                </section>  
+            </div>   
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="gray-container">
+            <div class="container">
+                <div class="footer-container">
+                    <div>
+                        © 2022
+                        <a href="https://daniultras.github.io/rsschool-cv/cv" class="github nav-link" target="_blank">daniultras</a>
+                    </div>
+                    <a href="https://rs.school/js/" class="rss" target="_blank"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
