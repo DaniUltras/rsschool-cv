@@ -1,4 +1,4 @@
-<img src="./img/myPhoto.jpg" width="250px">
+<img src="./assets/img/myPhotoCV.jpg" width="250px">
 
 # Daniil Sinkevich
 ## Contacts
